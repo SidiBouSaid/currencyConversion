@@ -11,6 +11,7 @@ i18n.use(initReactI18next).init({
         "Display Name": "Display Name",
         Password: "Password",
         "Password Repeat": "Password Repeat",
+        Login:"Login"
       },
     },
     tr: {
@@ -21,10 +22,11 @@ i18n.use(initReactI18next).init({
         "Display Name": "Tercih Edilen İsim",
         Password: "Şifre",
         "Password Repeat": "Şifreyi Tekrarla",
+        Login:"Giris Yap"
       },
     },
   },
-  fallbackLng: "en",
+  fallbackLng: "tr",
   ns: ["translations"],
   defaultNS: "translations",
   keySeparator: false,
